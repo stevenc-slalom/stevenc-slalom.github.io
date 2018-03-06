@@ -9,7 +9,7 @@
   // to do a server-side OAuth flow and avoid this problem
   var config = {
       clientId: '9dd295ead79a4faea1f58bb227fe8aa9',
-      redirectUri: 'https://stevenc-slalom.github.io/',
+      redirectUri: 'http://stevenc-slalom.github.io/',
       authUrl: 'https://api.instagram.com',
       max_iteration: 20,
   };
