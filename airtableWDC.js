@@ -21,13 +21,13 @@
     // Download the data
     myConnector.getData = function(table, doneCallback) {
         $.getJSON("https://api.airtable.com/v0/appsfhvN4p118JawU/List?api_key=keyt6RWODoHzDSTF1", function(resp) {
-            var feat = resp.features,
+            var feat = resp.records,
                 tableData = [];
 
             // Iterate over the JSON object
             for (var i = 0, len = feat.length; i < len; i++) {
                 tableData.push({
-                    "id": feat[i].records.id
+                    "id": feat[i].id
                 });
             }
 
