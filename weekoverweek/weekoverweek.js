@@ -10,4 +10,9 @@ window.onload=function(){
     alert($p1end);
     alert($p2start);
     alert($p2end);
+    
+    tableau.extensions.initializeAsync();
+    var p1 = tableau.extensions.dashboardContent.dashboard.parameter;
+    
+    
 }
