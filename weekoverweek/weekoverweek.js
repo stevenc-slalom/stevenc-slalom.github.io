@@ -1,6 +1,6 @@
 window.onload=function(){
     alert('Hello World!');
     
-    $date = moment().startOf('day').fromNow()
+    $date = moment().startOf('week')
     alert($date);
 }
