@@ -1,2 +1,3 @@
-alert('This is working!');
-
+window.onload=function(){
+    alert('Hello World!');
+}
